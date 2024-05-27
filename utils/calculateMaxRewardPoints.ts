@@ -1,7 +1,6 @@
 import Rules from "../constants/rules";
 import Merchants from '../constants/merchants';
 import {solve, Constraint, Solution, Model} from 'yalps';
-import { max } from "class-validator";
 
 interface Transaction {
     id: string,
